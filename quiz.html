@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Final Project</title>
+	<!--Olivia Tank, CSCE 102, Section 13, 03/01/2023-->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body id="special">
+	<div id="content">
+		<header id="header">
+			<h1>Olivia Tank</h1>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+		<main >
+			<h2>Website Development Quiz</h2>
+				<p>1) What is the difference between id's and classes?</p>
+				<select id="question1">
+					<option>Id's can be referenced in JavaScript; classes can't.</option>
+					<option>Classes can be referenced in JavaScript; id's can't.</option>
+					<option>Classes are reusable; id's are unique identifiers.</option>
+					<option>Id's are reusable; classes are unique identifiers.</option>
+				</select>
+				<p>2) Which statement is incorrect?</p>
+				<select id="question2">
+					<option>Cases matter in JavaScript.</option>
+					<option>Semicolons and commas are the same thing.</option>
+					<option>i and count are the same thing.</option>
+					<option>Functions are closed in curly brackets.</option>
+				</select>
+				<p>3) Which of the following is not a block level element?</p>
+				<select id="question3">
+					<option>paragraph</option>
+					<option>table</option>
+					<option>unordered list</option>
+					<option>label</option>
+				</select>
+				<p>4) Which of the following is not a tag used for tables?</p>
+				<select id="question4">
+					<option>&#60;tc&#62;</option>
+					<option>&#60;tr&#62;</option>
+					<option>&#60;td&#62;</option>
+					<option>&#60;th&#62;</option>
+				</select>
+				<br>
+				<button onclick="gradeQuiz()">Submit</button>
+			<section id="score">
+			</section>
+		</main>
+		<footer id="footer">
+			<p>&copy;My copyright</p>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body> 
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Final Project</title>
+	<!--Olivia Tank, CSCE 102, Section 13, 03/01/2023-->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body id="special">
+	<div id="content">
+		<header id="header">
+			<h1>Olivia Tank</h1>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+		<main >
+			<section>
+				<h2>Directions</h2>
+				<div id="directions">
+					<div id="address" class="column">
+						<h4>Super Cool Address</h4>
+						<p>1800 Fun Street</p>
+						<p>La La Land, XO, 12345</p>
+					</div>
+					<br>
+						<div class="column">
+						<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21.733591267730116!2d-135!3d84.99997288261609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4f9344da9515b951%3A0x4518d0c4d5c68876!2sNorth%20Pole!5e0!3m2!1sen!2sus!4v1678826432673!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+					<br>
+				</div>
+			</section>
+			<section>
+				<h2>Contact Me</h2>
+				<div id="contact_div">
+					<form action="https://api.web3forms.com/submit" method="POST">
+						<input type="hidden" name="access_key" value="22c25a31-4efa-4b3a-872c-7cbcb66f6460">
+						<label for="name_input">Name:</label>
+						<input id="name_input" type="text" name="name" required>
+						<p></p>
+						<label for="email_input">Email:</label>
+						<input id="email_input" type="email" name="email" required>
+						<p></p>
+						<label for="message_txtarea">Message:</label>
+						<textarea id="message_txtarea" name="message" required></textarea>
+						<input type="hidden" name="redirect" value="https://web3forms.com/success">
+						<p></p>
+						<button type="submit">Submit Form</button>
+					</form>
+			</section>
+		</main>
+		<footer id="footer">
+			<p>&copy;My copyright</p>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body> 
+</html>
